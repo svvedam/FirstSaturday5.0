@@ -57,7 +57,7 @@ public class WriteLoopsTest
     public void TestStartAtTwentyOne()
     {
         WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(11, writeLoo1.startAtTwentyOne());
+        assertEquals(10, writeLoo1.startAtTwentyOne());
     }
 
     @Test
@@ -71,7 +71,7 @@ public class WriteLoopsTest
     public void Test2to32()
     {
         WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(0, writeLoo1.byTwoTo32());
+        assertEquals(16, writeLoo1.byTwoTo32());
     }
 
     @Test
@@ -85,7 +85,7 @@ public class WriteLoopsTest
     public void TestNestedFors()
     {
         WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(100, writeLoo1.nestedFors());
+        assertEquals(80, writeLoo1.nestedFors());
     }
 
     @Test
